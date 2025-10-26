@@ -44,4 +44,4 @@ thddnwls71@naver.com으로 연락주세요.
 [네트워크](./Network/Network.md)
 
 ## Others(기타)
-- [도메인-엔티티-비즈니스 로직](./Software%20Engineering/도메인-엔티티-비즈니스 로직 개념.md)
+- [도메인-엔티티-비즈니스 로직](./Software%20Engineering/도메인-엔티티-비즈니스%20로직%20개념.md)
