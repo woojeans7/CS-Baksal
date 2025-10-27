@@ -10,6 +10,7 @@ CPU는 메모리에 저장된 명령어를 읽어 들이고, 해석하고, 실�
 #### ALU가 받아들이는 정보
 - 계산을 하기 위해서는 피연산자와 수행할 연산이 필요함. 
 - 레지스터를 통해 **피연산자**를 받아들이고, 제어장치로부터 수행할 연산을 알려주는 **제어신호**를 받아들인다.
+
 ####  ALU가 내보내는 정보
 - **연산을 수행한 결과**를 내보낸다. 
 - **플래그(flag)** : 연산 결과에 대한 부가 정보, 플래그 레지스터에 저장됨
@@ -94,6 +95,7 @@ CPU로 가져온 명령어를 실행하는 단계
 <img width="371" height="302" alt="image" src="https://github.com/user-attachments/assets/c25fce80-22ff-4b06-9d7d-9b801aabe1a8" />
 
  → 프로그램을 이루는 수많은 명령어는 일반적으로 인출과 실행 사이클을 반복하며 실행됨.
+
 <img width="371" height="311" alt="image" src="https://github.com/user-attachments/assets/5176930c-b326-458c-9449-504570086802" />
 
 #### 간접 사이클(Indirect Cycle)
