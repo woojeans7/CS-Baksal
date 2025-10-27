@@ -5,7 +5,8 @@ CPU는 메모리에 저장된 명령어를 읽어 들이고, 해석하고, 실�
 ## ALU(산술논리연산장치)
 > 산술 연산과 논리 연산을 수행 
 
-![[Pasted image 20251026234857.png]]
+<img width="600" height="314" alt="image" src="https://github.com/user-attachments/assets/ed2d83df-7746-4071-97bc-ad7dca2972fb" />
+
 #### ALU가 받아들이는 정보
 - 계산을 하기 위해서는 피연산자와 수행할 연산이 필요함. 
 - 레지스터를 통해 **피연산자**를 받아들이고, 제어장치로부터 수행할 연산을 알려주는 **제어신호**를 받아들인다.
@@ -18,7 +19,8 @@ CPU는 메모리에 저장된 명령어를 읽어 들이고, 해석하고, 실�
 ## 제어장치
 > 제어신호를 내보내고, 명령어를 해석함.
 
-![[Pasted image 20251026234737.png]]
+<img width="1888" height="884" alt="image" src="https://github.com/user-attachments/assets/343c7bf6-fea6-4869-9d17-b5e112cb950d" />
+
 #### 제어장치가 받아들이는 정보
 - **클럭(clock)**
 - 해석할 **명령어**
@@ -85,23 +87,27 @@ CPU가 하나의 명령어를 처리하는 과정에는 어떤 정해진 흐름�
 - 인터럽트(Interrupt)
 #### 인출 사이클(Fetch Cycle)
 메모리에 저장된 명령어를 실행하기 위해 CPU 내부로 가져오는 단계
-![[Pasted image 20251026221432.png]]
+<img width="371" height="281" alt="image" src="https://github.com/user-attachments/assets/a86420ee-612e-4425-964c-503f1c136661" />
+
 #### 실행 사이클(Execute Cycle)
 CPU로 가져온 명령어를 실행하는 단계
-![[Pasted image 20251026222005.png]]
+<img width="371" height="302" alt="image" src="https://github.com/user-attachments/assets/c25fce80-22ff-4b06-9d7d-9b801aabe1a8" />
+
  → 프로그램을 이루는 수많은 명령어는 일반적으로 인출과 실행 사이클을 반복하며 실행됨.
-![[Pasted image 20251026222108.png]]
+<img width="371" height="311" alt="image" src="https://github.com/user-attachments/assets/5176930c-b326-458c-9449-504570086802" />
+
 #### 간접 사이클(Indirect Cycle)
 명령어를 인출해도 바로 실행이 불가능한 경우도 있음. (ex. 간접 주소 지정 방식)
 명령어를 실행하기 위해 메모리 접근을 한 번 더 하는 단계
 
 간접 주소 지정 방식을 사용하는 경우, 명령어의 오퍼랜드가 실제 데이터가 아닌 데이터의 주소를 가리킨다. 따라서 메모리에 한 번 더 접근하여 실제 데이터의 주소를 얻어야 한다.
-![[Pasted image 20251026222359.png]]
+<img width="371" height="275" alt="image" src="https://github.com/user-attachments/assets/b7f6be69-9de6-4e63-bcb4-e404f2305c4c" />
+
 #### 인터럽트(Interrupt)
 [[인터럽트|인터럽트]] : CPU의 작업을 방해하는 신호
 
 ### 각 단계별 레지스터 동작 과정
-![[낙서장.gif]]
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/395f13a9-c705-4a87-8569-89f31ea930b3" />
 
  1. 프로그램 카운터(PC)에 `1000`이 저장됨 (명령어가 담긴 주소 저장)
  2. 주소 버스로 1000번지를 전달하기 위해 메모리 주소 레지스터(MAR)에 `1000` 저장
