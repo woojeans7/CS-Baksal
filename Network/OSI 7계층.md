@@ -6,7 +6,8 @@ OSI 7계층 모델(OSI 7Layer)은 국제 표준화 기구(ISO)에서 네트워�
 
 ## OSI 7 계층 구조
 
-![[Pasted image 20251030214223.png|600]]
+<img width="713" height="768" alt="image" src="https://github.com/user-attachments/assets/a997bf1b-e025-4ccf-88c5-34d12a7e7c90" />
+
 
 ###### 이미지 출처: Bluecat Networks
 
@@ -16,6 +17,8 @@ OSI 7계층은 다시 두 가지 계층으로 나눌 수 있음.
 - 5~7 계층 : 애플리케이션 계층(Application Layer) / 상위 계층(Upper Layer)
 
 <mark style="background: #FFF3A3A6;">프로토콜(Protocol)</mark>이란 통신을 하기 위한 규정이나 규약을 의미함.
+
+<br></br>
 
 ### 1. 물리 계층
 
@@ -62,6 +65,8 @@ OSI 7계층은 다시 두 가지 계층으로 나눌 수 있음.
 
 > 주요 프로토콜 : TCP, UDP, SCTP
 
+<br></br>
+
 ### 5. 세션 계층
 
 5계층은 세션 계층(Session Layer)으로 응용 시스템 간의 통신 세션을 수립, 유지, 종료하는 계층이다.
@@ -69,6 +74,8 @@ OSI 7계층은 다시 두 가지 계층으로 나눌 수 있음.
 - 세션을 관리하는 것(연결 유지, 복구, 체크포인트)이 주요 역할로, TCP/IP 세션을 만들고 없애는 책임을 진다.
 
 > 주요 프로토콜 : NetBIOS, RPC
+
+<br></br>
 
 ### 6. 표현 계층
 
@@ -78,6 +85,8 @@ OSI 7계층은 다시 두 가지 계층으로 나눌 수 있음.
 - SSL/TLS, JPEG, Base64 등이 대표적이다.
 
 > 주요 프로토콜 : SSL/TLS, JPEG, MPEG, Base64, UTF-8
+
+<br></br>
 
 ### 7. 응용 계층
 
@@ -95,11 +104,14 @@ OSI 7계층은 다시 두 가지 계층으로 나눌 수 있음.
 현재의 인터넷은 OSI 7계층보다는 TCP/IP 4계층을 기반으로 동작한다.
 요새는 네트워크 인터페이스 계층을 다시 데이터 링크 계층과 물리 계층으로 나누어 TCP/IP 5계층이라고도 한다.
 
-> [!question] OSI 7계층에 대해서 간략히 설명하세요.
-> A.
+---
+#### 면접 예상 질문
 
-> [!question] 7계층으로 나누는 이유에 대해서 설명하세요.
-> A.
+> Q1. OSI 7계층에 대해서 간략히 설명하세요.
+> A1.
 
-> [!question] OSI 7계층과 TCP/IP 4계층의 차이점을 설명하세요.
+> Q2. 7계층으로 나누는 이유에 대해서 설명하세요.
+> A2.
+
+> Q3. OSI 7계층과 TCP/IP 4계층의 차이점을 설명하세요.
 > A.
