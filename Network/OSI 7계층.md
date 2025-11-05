@@ -8,7 +8,6 @@ OSI 7계층 모델(OSI 7Layer)은 국제 표준화 기구(ISO)에서 네트워�
 
 <img width="713" height="768" alt="image" src="https://github.com/user-attachments/assets/a997bf1b-e025-4ccf-88c5-34d12a7e7c90" />
 
-
 ###### 이미지 출처: Bluecat Networks
 
 OSI 7계층은 다시 두 가지 계층으로 나눌 수 있음.
@@ -18,7 +17,7 @@ OSI 7계층은 다시 두 가지 계층으로 나눌 수 있음.
 
 <mark style="background: #FFF3A3A6;">프로토콜(Protocol)</mark>이란 통신을 하기 위한 규정이나 규약을 의미함.
 
-<br></br>
+<br>
 
 ### 1. 물리 계층
 
@@ -28,7 +27,7 @@ OSI 7계층은 다시 두 가지 계층으로 나눌 수 있음.
 
 > 주요 장비 : 허브(Hub), 리피터(Repeater), 케이블(Cable), 커넥터(Connecter) 등
 
-<br></br>
+<br>
 
 ### 2. 데이터 링크 계층
 
@@ -40,7 +39,7 @@ OSI 7계층은 다시 두 가지 계층으로 나눌 수 있음.
 
 > 주요 장비 : 스위치(Switch), 브릿지(Bridge) 등
 
-<br></br>
+<br>
 
 ### 3. 네트워크 계층
 
@@ -51,7 +50,7 @@ OSI 7계층은 다시 두 가지 계층으로 나눌 수 있음.
 
 > 주요 장비 : 라우터
 
-<br></br>
+<br>
 
 ### 4. 전송 계층
 
@@ -65,7 +64,7 @@ OSI 7계층은 다시 두 가지 계층으로 나눌 수 있음.
 
 > 주요 프로토콜 : TCP, UDP, SCTP
 
-<br></br>
+<br>
 
 ### 5. 세션 계층
 
@@ -75,7 +74,7 @@ OSI 7계층은 다시 두 가지 계층으로 나눌 수 있음.
 
 > 주요 프로토콜 : NetBIOS, RPC
 
-<br></br>
+<br>
 
 ### 6. 표현 계층
 
@@ -86,7 +85,7 @@ OSI 7계층은 다시 두 가지 계층으로 나눌 수 있음.
 
 > 주요 프로토콜 : SSL/TLS, JPEG, MPEG, Base64, UTF-8
 
-<br></br>
+<br>
 
 ### 7. 응용 계층
 
@@ -97,7 +96,7 @@ OSI 7계층은 다시 두 가지 계층으로 나눌 수 있음.
 
 > 주요 프로토콜 : HTTP/HTTPS, FTP, SMTP, DNS
 
-<br></br>
+<br>
 
 ## TCP/IP 4계층 (5계층)
 
@@ -105,13 +104,26 @@ OSI 7계층은 다시 두 가지 계층으로 나눌 수 있음.
 요새는 네트워크 인터페이스 계층을 다시 데이터 링크 계층과 물리 계층으로 나누어 TCP/IP 5계층이라고도 한다.
 
 ---
+
 #### 면접 예상 질문
 
-> Q1. OSI 7계층에 대해서 간략히 설명하세요.
-> A1.
-
-> Q2. 7계층으로 나누는 이유에 대해서 설명하세요.
-> A2.
-
-> Q3. OSI 7계층과 TCP/IP 4계층의 차이점을 설명하세요.
-> A.
+<details>
+<summary>Q1. OSI 7계층에 대해서 간략히 설명하세요.</summary>
+<div markdown="1">
+A1. 
+</div>
+</details>
+<br>
+<details>
+<summary>Q2. 7계층으로 나누는 이유에 대해서 설명하세요.</summary>
+<div markdown="1">
+A2. 
+</div>
+</details>
+<br>
+<details>
+<summary>Q3. OSI 7계층과 TCP/IP 4계층의 차이점을 설명하세요.</summary>
+<div markdown="1">
+A3. 
+</div>
+</details>
