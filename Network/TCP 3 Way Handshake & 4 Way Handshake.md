@@ -6,7 +6,8 @@ TCP는 신뢰성을 보장하는 특징이 있다.
 
 TCP Header에서 Control(Flag) 영역을 들여다보면 여러 플래그가 존재하는데 이 플래그들을 통해서 3 Way Handshake와 4 Way Handshake가 동작하게 된다.
 
-![[무제.gif]]
+![무제](https://github.com/user-attachments/assets/2cc5ed80-9aec-4def-8028-14eef8949514)
+
 
 ### TCP 플래그
 
@@ -21,7 +22,8 @@ TCP Header에서 Control(Flag) 영역을 들여다보면 여러 플래그가 존
 
 3 way handshake(3방향 핸드셰이크)는 <mark style="background: #FFF3A3A6;">ACK, SYN</mark> 플래그를 이용해서 **연결을 수립**한다.
 
-![[Pasted image 20251104205835.png]]
+<img width="1257" height="1283" alt="Pasted image 20251104205503" src="https://github.com/user-attachments/assets/37905d68-45a0-4acc-8d3d-3188836b335d" />
+
 
 연결 수립을 위한 3단계 과정
 
@@ -52,7 +54,8 @@ TCP Header에서 Control(Flag) 영역을 들여다보면 여러 플래그가 존
 
 4 way handshake(4방향 핸드셰이크)는 **연결을 종료**하기 위한 과정으로 <mark style="background: #FFF3A3A6;">ACK, FIN</mark> 플래그를 사용한다.
 
-![[Pasted image 20251104211111.png]]
+<img width="1287" height="1274" alt="Pasted image 20251104211111" src="https://github.com/user-attachments/assets/d07ca8d7-69b2-4fc1-9765-389314df2a37" />
+
 
 연결 종료를 위한 4단계 과정
 
