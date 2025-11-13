@@ -22,7 +22,7 @@ TCP Header에서 Control(Flag) 영역을 들여다보면 여러 플래그가 존
 
 3 way handshake(3방향 핸드셰이크)는 <mark style="background: #FFF3A3A6;">ACK, SYN</mark> 플래그를 이용해서 **연결을 수립**한다.
 
-<img width="1257" height="1283" alt="Pasted image 20251104205503" src="https://github.com/user-attachments/assets/37905d68-45a0-4acc-8d3d-3188836b335d" />
+<img width="800" height="816" alt="Pasted image 20251104205503" src="https://github.com/user-attachments/assets/37905d68-45a0-4acc-8d3d-3188836b335d" />
 
 
 연결 수립을 위한 3단계 과정
@@ -54,7 +54,7 @@ TCP Header에서 Control(Flag) 영역을 들여다보면 여러 플래그가 존
 
 4 way handshake(4방향 핸드셰이크)는 **연결을 종료**하기 위한 과정으로 <mark style="background: #FFF3A3A6;">ACK, FIN</mark> 플래그를 사용한다.
 
-<img width="1287" height="1274" alt="Pasted image 20251104211111" src="https://github.com/user-attachments/assets/d07ca8d7-69b2-4fc1-9765-389314df2a37" />
+<img width="808" height="800" alt="Pasted image 20251104211111" src="https://github.com/user-attachments/assets/d07ca8d7-69b2-4fc1-9765-389314df2a37" />
 
 
 연결 종료를 위한 4단계 과정
