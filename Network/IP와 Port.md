@@ -72,7 +72,8 @@ IP 주소만으로는 어떤 컴퓨터인지는 식별할 수 있지만, 그 컴
 
 ### 포트의 동작 방식
 
-![[Pasted image 20251112170349.png]]
+<img width="1149" height="315" alt="image" src="https://github.com/user-attachments/assets/555f89fe-6900-4bdf-8690-085566b0fbed" />
+
 
 1. 서버 : 웹 브라우저 통신을 위해 80번 포트를 열고 대기 (Listen)
 2. 클라이언트 : 랜덤 포트 사용 + 서버의 80번 포트로 연결
