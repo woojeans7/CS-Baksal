@@ -15,14 +15,14 @@ Net와 Work의 합성어(그물망+일)로 단어 의미 그대로라면 사람�
 
 ### 2. TCP/IP
 
-- IP와 Port
-- TCP와 UDP
-- TCP 3 Way Handshake & 4 Way Handshake
+- [IP와 Port](IP와%20Port.md)
+- [TCP와 UDP](TCP와%20UDP.md)
+- [TCP 3 Way Handshake & 4 Way Handshake](TCP%203%20Way%20Handshake%20&%204%20Way%20Handshake.md)
 - TCP/IP 흐름제어 & 혼잡제어
 
 ### 3. DNS & 도메인
 
-- DNS 동작 방식
+- DNS
 
 ### 4. 성능과 확장성
 
